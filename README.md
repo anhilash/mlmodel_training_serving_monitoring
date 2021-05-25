@@ -114,3 +114,5 @@ docker-compose up
 * API: http://localhost:5000/prediction/  #Refefer the postman collection for sample request
 * Prometheus: http://localhost:5000/metrcis #API Endpoint for Metrics
 * Grafana: http://localhost:3000 `[username: admin, password: pass@123]` #URL for accessing Grafana Dashboard
+The dashboard will look like this. We can make use of locust to load test the services.
+![Screenshot 2021-05-25 at 9 15 38 PM](https://user-images.githubusercontent.com/31715303/119554075-e562f800-bdb9-11eb-99fb-bb1bf288bd76.png)
