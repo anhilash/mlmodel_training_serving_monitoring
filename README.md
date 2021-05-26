@@ -17,7 +17,12 @@ monitoring/
 docker-compose.yml
 README.md
 ```
-Trainig and persisting ML Model in the `model.py` Module. For evaluating the model we can use AUC ROC. And the model is persisted accordingly in the
+Trainig and persisting ML Model in the `model.py` Module. For evaluating the model we can use AUC ROC. And the model is persisted accordingly. For improving the text classification model we can do the following.
+1) Domain specific features in the corpus
+2) Use An Exhaustive Stopword List
+3) Noise Free Corpus
+4) Eliminating features with extremely low frequency
+5) Normalized Corpus
 
 ```python
 class Model:
